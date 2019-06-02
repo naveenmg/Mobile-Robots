@@ -1,5 +1,6 @@
 # Mobile-Robots
 ### The aim of the project is to build a collection of wheeled robots that are capable of communicating to each other and mapping a maze. The advantage of the system is its capability to map the given area in the minimum amount of time by splitting the work between two or more bots. The design and implementation of multiple mapping robots is undertaken using Digital Magnetic Compass, Ultrasonic Sensor and Arduino. The designed robots uses a metric, world centric approach for mapping algorithm. Robots follow the wall while continuously sending its co-ordinates to the base station. Base station or map monitor has PC with NRF module link connected with mobile robots and map is plotted on a GUI. The proposed approach is a simple and low cost robotic application to solve SLAM problem.
+https://www.behance.net/gallery/81073741/Mobile-Robots
 
 ## 1.	 INTRODUCTION 
      
