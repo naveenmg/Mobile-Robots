@@ -73,4 +73,12 @@ Fig. 2.  Mapping Robot Block Diagram
     PC has MATLAB software with Arduino driver to communicate with PC’s COM port.
     Live coordinates send by mobile robot receives by PC and map is plotted on MATLAB’s graph.
     Fig 4 shows mechanical layout assembly of designed robot.
-    
+![4](https://user-images.githubusercontent.com/38221793/58768575-e92e5c00-859d-11e9-9445-4eac8010d8d2.png)
+Fig. 4.  Mapping Robot: Mechanical Assembly
+## 3.	STAGES
+
+### (a)	Obstacle Avoider
+A basic obstacle avoider was created to understand and check the primary working and functions of the ultrasonic sensor, servo and motor driver. The robot was able to travel around without any collision with Arduino code alone.
+
+
+
