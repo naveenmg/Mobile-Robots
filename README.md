@@ -57,14 +57,16 @@ Fig. 2.  Mapping Robot Block Diagram
      This robot has 7.4 Volts battery for powering of driving system and Arduino.
      
      The mapping robot has Arduino MEGA development board which consists of Atmel’s ATmega2560 microcontroller with other electronic components which can be programmed using the software. The Mega 2560 is a microcontroller board based on the ATmega2560. It has 54 digital input/output pins (of which 15 can be used as PWM outputs), 16 analog inputs, 4 UARTs (hardware serial ports), a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button. Robot has two kind of sensors used for navigation. Fig 3 (b) and (c) shows digital compass HMC5883L and ultrasonic distance sensor HC - SR04 respectively. HMC5883L is 3-Axis Digital Compass IC. The I2C serial bus allows for easy interface. It enables 1 to 2 Degree Compass Heading Accuracy. Working range of Ultrasonic ranging module HC - SR04 is 2cm to 400cm with accuracy of 3mm. Output voltage from sensor is corresponding to the detection distance from sensor to an object. Robot has two DC geared motors for motion control. Two caster wheels are attached to front and back end of robot for support. Driving system of robot allows it to move forward, backward and rotate clockwise or anticlockwise. Communication between robot and PC is achieved using NRF. NRF module is a module designed for transparent wireless serial connection setup. This robot has 7.4 Volts battery for powering of driving system and Arduino.
-     
+ ![3](https://user-images.githubusercontent.com/38221793/58768445-8dfb6a00-859b-11e9-9359-76f58a685f84.jpg)
+ Fig. 3. Hardware contains of robot (a) Arduino Mega micro-controller 
+ 
+ ![b](https://user-images.githubusercontent.com/38221793/58768446-8e940080-859b-11e9-868a-21c8394516e2.jpg) 
+ (b) Digital compass - HMC5883L
+ 
+ ![c](https://user-images.githubusercontent.com/38221793/58768443-8dfb6a00-859b-11e9-9031-6c93c18060cf.jpg) 
+  (c) Ultrasonic distance sensor - HC-SR04 
+  
+ ![d](https://user-images.githubusercontent.com/38221793/58768444-8dfb6a00-859b-11e9-925f-625083b68214.jpg)
+(d) NRF module .
              
-                     (a)                                       (b)
-                            
-                    (c)                                       (d)
-Fig. 3. Hardware contains of robot (a) Arduino Mega micro-controller (b) Digital compass - HMC5883L (c) Ultrasonic distance sensor - HC-SR04 (d) NRF module .
-             
-                     (a)                                       (b)
-                            
-                    (c)                                       (d)
-Fig. 3. Hardware contains of robot (a) Arduino Mega micro-controller (b) Digital compass - HMC5883L (c) Ultrasonic distance sensor - HC-SR04 (d) NRF module .
+
