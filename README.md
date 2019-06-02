@@ -75,43 +75,67 @@ Fig. 2.  Mapping Robot Block Diagram
     Fig 4 shows mechanical layout assembly of designed robot.
 ![4](https://user-images.githubusercontent.com/38221793/58768575-e92e5c00-859d-11e9-9445-4eac8010d8d2.png)
 Fig. 4.  Mapping Robot: Mechanical Assembly
+
 ## 3.	STAGES
 
 ### (a)	Obstacle Avoider
 A basic obstacle avoider was created to understand and check the primary working and functions of the ultrasonic sensor, servo and motor driver. 
 The robot was able to travel around without any collision with Arduino code alone.
+
 ![5](https://user-images.githubusercontent.com/38221793/58768597-3b6f7d00-859e-11e9-9a03-2a3878aa7e2f.png)
+
 Fig 5.Obstacle avoider
 ### (b)	Remote controlled robot
 The functioning of the RF module was tested and range and usage determined by converting the obstacle avoider into a remote controlled robot directly through the PC. 
+
 ![6](https://user-images.githubusercontent.com/38221793/58768598-3b6f7d00-859e-11e9-98e7-a84ee61ac116.jpg)
+
 Fig 6.Reciever communication with PC
+
 ### (c)	Sonar
 The capability of ultrasonic sensor to map an area is determined by making a sonar.
+
 ![7](https://user-images.githubusercontent.com/38221793/58768599-3c081380-859e-11e9-85d1-4a854454de2e.jpg)
+
 Fig 7.Sonar
+
 ### (d)	Real-time plotting of a stationary robot
 A real time map around a stationary robot is plotted with an ultrasonic sensor and servo motor. 
+
 ![8](https://user-images.githubusercontent.com/38221793/58768600-3c081380-859e-11e9-83f9-55d515855322.png)
+
 Fig 8. Real time map
+
 ### (e)	Communication
 The algorithm for each robot is different so that they follow different paths. 
 The first robot runs on basic obstacle avoidance, second on left wall following and third on right wall following. 
 Various other algorithms can also be used on each of the robots.
+
 ![9](https://user-images.githubusercontent.com/38221793/58768601-3c081380-859e-11e9-94ce-b36bc3eca6d8.png)
+
 Fig.9 SLAM
+
 Communication between the robot and the PC is set up and the robot is placed into the map to map the entire maze up to its capability. The time taken to plot the entire maze is recorded. 
 Later on it was decided to plot the compass values only during turns so that the compass readings do not interfere with NRF module and to get straight lines between each turns.
+
 ![10](https://user-images.githubusercontent.com/38221793/58768602-3c081380-859e-11e9-83df-000950d2b83d.png)
+
 Fig.10 Map
+
 ### (f)	Summing up of all the process
+
 ![11](https://user-images.githubusercontent.com/38221793/58768603-3c081380-859e-11e9-9d57-30d7fe8a0a63.jpg)
+
 Fig.11 Final map
+
 All the given concepts must be integrated into a single program to perform the required task. 
 The SLAM alone itself is a high end program for the Arduino to handle hence most of the processing is undertaken within the computer while only the required type of signal is taken from the Arduino.
 For further accurate and advanced outputs a high end board such as the Raspberry pi is required along with better sensor inputs through LIDAR, Kinect or camera.
+
 ![12](https://user-images.githubusercontent.com/38221793/58768604-3ca0aa00-859e-11e9-9a16-32f95fca43bc.jpg)
+
 Fig.12 Final Robots
+
 ## 4.	ALGORITHM
 
 Robot navigation and mapping algorithm is implemented with a minimum level intelligence on maximum cost reduced robots. 
@@ -139,7 +163,9 @@ Robot 3 follows a random obstacle avoidance path.
  Robot sends co-ordinates in form of x, y, x, y… and is thus continuously updated. X-Y graph is plotted on MATLAB front panel.
 
 ![13](https://user-images.githubusercontent.com/38221793/58768605-3ca0aa00-859e-11e9-8270-50910e2d3770.png)
+
 Fig.13 General Flowchart
+
 ### Algorithm for NRF24l01 communication (TRANMITTER):
 
 1. Start;
@@ -191,7 +217,9 @@ With the current hardware used not much additions can be made to the project but
 With higher processing power better sensors and camera can be added to execute complete SLAM. 
  
 ![14](https://user-images.githubusercontent.com/38221793/58768606-3ca0aa00-859e-11e9-87f1-aa60cc64225b.png)
+
 Fig.12 Multi-Robot Mapping
+
 A quadcopter can be made to work as the base station instead of the PC.
 The base station can control and coordinate the actions of the wheeled robots.
 Once these robots are capable of such complete high level tasks they can be used for space explorations or on rescue missions.
