@@ -69,4 +69,8 @@ Fig. 2.  Mapping Robot Block Diagram
  ![d](https://user-images.githubusercontent.com/38221793/58768444-8dfb6a00-859b-11e9-925f-625083b68214.jpg)
 (d) NRF module .
              
-
+    Base station or has PC with NRF link connected with mobile robot. 
+    PC has MATLAB software with Arduino driver to communicate with PC’s COM port.
+    Live coordinates send by mobile robot receives by PC and map is plotted on MATLAB’s graph.
+    Fig 4 shows mechanical layout assembly of designed robot.
+    
